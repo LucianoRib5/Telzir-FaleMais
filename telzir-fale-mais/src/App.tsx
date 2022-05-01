@@ -1,11 +1,11 @@
 import React from "react";
-import Home from "./pages/home/home";
+import FormPage from "./pages/formPage/index";
 import GlobalStyle from "./styles/global";
 
 const App: React.FC = () =>{
   return (
     <>
-      <Home/>
+      <FormPage/>
       <GlobalStyle/>    
     </>
   ); 
