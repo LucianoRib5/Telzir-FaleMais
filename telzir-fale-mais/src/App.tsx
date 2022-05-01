@@ -1,12 +1,10 @@
 import React from "react";
-import FormPage from "./pages/formPage/index";
-import GlobalStyle from "./styles/global";
+import MainRoutes from "./routes/routes";
 
 const App: React.FC = () =>{
   return (
     <>
-      <FormPage/>
-      <GlobalStyle/>    
+      <MainRoutes/>  
     </>
   ); 
   
