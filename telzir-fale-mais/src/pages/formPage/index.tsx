@@ -1,7 +1,9 @@
 import React from "react";
-import { Container, FormContainer } from "./styles";
+import { Container, FormContainer, ButtonContainer, TextContainer } from "./styles";
+import Header from "../../components/header/index";
+import Button from "../../components/button";
 
-const Home: React.FC = () =>{
+const FormPage: React.FC = () =>{
 
     const origins: number[] = [11, 16, 17, 18];
     const plans: string[] = [
@@ -17,17 +19,20 @@ const Home: React.FC = () =>{
 
     return (
         <Container>
-            <h1>Telzir-faleMais</h1>
+            <Header/>
+            <TextContainer>
+                <p>Preencha os campos abaixo</p>                
+            </TextContainer>
             <FormContainer onSubmit={print}>
                 <select required>
-                    <option value= "" disabled>Selecione o código de origem</option>
+                    <option value= "">Selecione o DDD de origem</option>
                     {origins.map(option =>
                         <option key={option} value={option}>0{option}</option>    
                     )}
                 </select>
 
                 <select required>
-                    <option value="" disabled>Selecione o código de destino</option>
+                    <option value="">Selecione o DDD de destino</option>
                     {origins.map(option =>
                         <option key={option} value={option}>0{option}</option>    
                     )}
@@ -36,27 +41,17 @@ const Home: React.FC = () =>{
                 <input placeholder="Duração em minutos" type={"number"} min="1" required/>
 
                 <select required>
-                    <option value="" disabled>Selecione o plano</option>
+                    <option value="">Selecione o plano</option>
                     {plans.map(plan =>
                         <option key={plan} value={plan}>{plan}</option>
                     )}
                 </select>
-                <button
-                    style={{
-                        background: "#9900F0",
-                        color: "#F0FFFF",
-                        width: "10rem",
-                        height: "4rem",
-                        border: "none",
-                        borderRadius: "5rem",
-                        cursor: "pointer"
-                    }}
-                >
-                    CALCULAR
-                </button>
+                <ButtonContainer>
+                  <Button/>
+                </ButtonContainer>
             </FormContainer>
         </Container>
     );
 };
 
-export default Home;
+export default FormPage;
