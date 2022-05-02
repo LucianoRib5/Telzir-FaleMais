@@ -27,14 +27,14 @@ const FormPage: React.FC = () =>{
                 <select required>
                     <option value= "">Selecione o DDD de origem</option>
                     {origins.map(option =>
-                        <option key={option} value={option}>0{option}</option>    
+                        <option key={option} value={option}>{"DDD "}0{option}</option>    
                     )}
                 </select>
 
                 <select required>
                     <option value="">Selecione o DDD de destino</option>
                     {origins.map(option =>
-                        <option key={option} value={option}>0{option}</option>    
+                        <option key={option} value={option}>{"DDD "}0{option}</option>    
                     )}
                 </select>
                 
