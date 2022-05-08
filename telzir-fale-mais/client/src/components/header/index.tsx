@@ -3,17 +3,27 @@ import { Container, Arrow, Title, Aux } from "./styles";
 import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
 import { Props } from "../../constants/types/types";
 
-const Header: React.FC<Props> = ({showArrow}) =>{
+const Header: React.FC<Props> = ({showArrow, funct}) =>{
     return(
         <Container>
                 <Arrow>
                     {showArrow === false ? null : 
-                        <KeyboardArrowLeftIcon
+                        <button 
+                            onClick={funct}
                             style={{
-                                fontSize: 40,
-                                color: '#9900F0'
+                                border: "none",
+                                background: "none"
                             }}
-                        />                
+                        
+                        >
+                            <KeyboardArrowLeftIcon
+                                style={{
+                                    fontSize: 40,
+                                    color: '#9900F0',
+                                    cursor: "pointer"
+                                }}
+                            />               
+                        </button>
                     }
                 </Arrow>            
             <Title>
