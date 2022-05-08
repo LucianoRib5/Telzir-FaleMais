@@ -6,7 +6,6 @@ export default createGlobalStyle`
         padding: 0;
         outline: 0;
         box-sizing: border-box;
-        /* font-family: 'Roboto'; */
         font-family: 'Poppins', sans-serif;
     };
 
@@ -21,9 +20,8 @@ export default createGlobalStyle`
         height: 2.5rem;
     };
 
-    h1 {
+    h1, h2 {
         font-family: 'Bebas Neue', cursive;
         color: #9900F0;
-        /* font-weight: bold; */
     };
 `;

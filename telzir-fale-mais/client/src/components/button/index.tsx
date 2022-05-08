@@ -1,10 +1,11 @@
 import React from "react";
 import { Container } from "./styles";
+import { Props } from "../../constants/types/types";
 
-const Button: React.FC = () =>{
+const Button: React.FC<Props> = ({text, funct}) =>{
     return(
-        <Container>
-            <p>CALCULAR</p>
+        <Container onClick={funct}>
+            <p>{text}</p>
         </Container>
     );
 };
