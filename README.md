@@ -54,4 +54,7 @@ $ npm install
 # Execute o script start
 $ npm start
 ```
+### 📱 Layout 
+![image](https://user-images.githubusercontent.com/89327618/167340030-bfd7de3c-1269-46f8-bbe7-44caecc9d1de.png)
+
 
