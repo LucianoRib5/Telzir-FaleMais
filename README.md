@@ -36,7 +36,7 @@ $ npm run migrations
 # Execute o script dev
 $ npm run dev
 
-# O servidor iniciará na porta:3003 - acesse <http://localhost:3003>
+# O servidor iniciará na porta:3003.
 ```
 
 ### 🖥️ Rodando o Front end
