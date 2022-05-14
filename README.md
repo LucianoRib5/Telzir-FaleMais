@@ -24,11 +24,11 @@ $ cd server
 # Instale as dependências
 $ npm install
 
-# Crie um arquivo .env com as seguintes informações temporárias:
-DB_HOST = "telzirfalemais.ccwjtyuxmvpr.sa-east-1.rds.amazonaws.com"
-DB_USER = "admin"
-DB_PASSWORD = "telzir123456"
-DB_SCHEMA = "telzir-fale-mais"
+# Crie um arquivo .env com as seguintes informações e complete com seu acesso a database(SQL):
+DB_HOST = ""
+DB_USER = ""
+DB_PASSWORD = ""
+DB_SCHEMA = ""
 
 # Execute o script migrations
 $ npm run migrations
