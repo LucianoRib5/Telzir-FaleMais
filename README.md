@@ -82,11 +82,8 @@ $ npm start
 
 ### Autor
 ---
-
-<a href="https://blog.rocketseat.com.br/author/thiago/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/89327618?v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Luciano Ribeiro</b></sub></a>
+ <sub><b>Luciano Ribeiro</b></sub>
 
 
 Entre em contato!
