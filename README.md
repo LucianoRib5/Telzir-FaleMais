@@ -1,3 +1,23 @@
+# 📞 Telzir FaleMais
+
+## A Telzir, preocupada com a transparência junto aos seus clientes, quer disponibilizar uma página na web onde o cliente pode calcular o valor da ligação. Ali, o cliente pode escolher os códigos das cidades de origem e destino, o tempo da ligação em minutos e escolher qual o plano FaleMais. O sistema deve mostrar dois valores: (1) o valor da ligação com o plano e (2) sem o plano. O custo inicial de aquisição do plano deve ser desconsiderado para este problema.
+
+### ⚙️ Features
+
+- [x] Selecionar DDD de origem
+- [x] Selecionar DDD de destino
+- [x] Informar os minutos de ligação
+- [x] Selecionar um dos planos Telzir
+- [x] Calcular vantagem
+
+### 🛠 Tecnologias
+
+Ferramentas utilizadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
@@ -59,5 +79,19 @@ $ npm start
 
 ### 📱 Layout 
 ![image](https://user-images.githubusercontent.com/89327618/167340030-bfd7de3c-1269-46f8-bbe7-44caecc9d1de.png)
+
+### Autor
+---
+
+<a href="https://blog.rocketseat.com.br/author/thiago/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/89327618?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Luciano Ribeiro</b></sub></a>
+
+
+Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Luciano-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/lucianorib5/)
+
 
 
