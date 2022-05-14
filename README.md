@@ -24,7 +24,7 @@ $ cd server
 # Instale as dependências
 $ npm install
 
-# Crie um arquivo .env com as seguintes informações e complete com seu acesso a database(SQL):
+# Crie um arquivo .env com as seguintes informações e complete as aspas com seu acesso a sua database(SQL):
 DB_HOST = ""
 DB_USER = ""
 DB_PASSWORD = ""
@@ -54,6 +54,9 @@ $ npm install
 # Execute o script start
 $ npm start
 ```
+### 👀 Demonstração (link surge)
+[Telzir FaleMais](https://telzir-falemais.surge.sh/)
+
 ### 📱 Layout 
 ![image](https://user-images.githubusercontent.com/89327618/167340030-bfd7de3c-1269-46f8-bbe7-44caecc9d1de.png)
 
